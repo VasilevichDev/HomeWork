@@ -18,7 +18,7 @@ class PictureActivity : AppCompatActivity() {
         val picture = findViewById<ImageView>(R.id.imageView)
         val button = findViewById<Button>(R.id.Button)
 
-        button.setOnClickListener() {
+        button.setOnClickListener {
             Picasso.get().load(textUrl).into(picture)
         }
 
