@@ -4,5 +4,6 @@
     <string name="homework_2">Homework_2</string>
     <string name="homework_3">Homework_3</string>
     <string name="download">Download</string>
-    <string name="enter_url">enter URL</string>
+    <string name="enter_URL">enter_url</string>
+
 </resources>

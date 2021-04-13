@@ -35,7 +35,7 @@
         android:layout_marginTop="128dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/enter_url"
+        android:hint="@string/enter_URL"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />

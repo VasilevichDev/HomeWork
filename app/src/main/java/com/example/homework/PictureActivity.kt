@@ -14,14 +14,21 @@ class PictureActivity : AppCompatActivity() {
         setContentView(R.layout.activity_picture)
 
         val url = findViewById<EditText>(R.id.editText)
-        val textUrl = url.text.toString()
+
         val picture = findViewById<ImageView>(R.id.imageView)
         val button = findViewById<Button>(R.id.Button)
 
         button.setOnClickListener {
-            Picasso.get().load(textUrl).into(picture)
+
+            if (url.text.toString().isEmpty()) {
+                url.error = "URL is empty"
+            } else {
+                Picasso.get().load(url.text.toString()).into(picture)
+            }
         }
 
     }
 
 }
+
+
