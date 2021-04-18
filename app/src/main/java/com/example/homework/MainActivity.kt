@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun onCLickGoToDZ2(view: View) {
+        val intent = Intent(this, flaganimation_activity::class.java)
+        startActivity(intent)
+    }
 }
