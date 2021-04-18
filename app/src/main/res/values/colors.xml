@@ -7,5 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="lat_red">#7A0707</color>
+    <color name="arm_red">#BA3333</color>
+    <color name="aus_red">#C13E3E</color>
+    <color name="arm_blu">#0F2BC8</color>
+    <color name="arm_yel">#B1A538</color>
+    <color name="lat_red">#7E2323</color>
+    <color name="spa_yel">#FAD904</color>
+    <color name="spa_red">#FA0421</color>
+    <color name="bel_yel">#D8C942</color>
+    <color name="den_red">#FA0435</color>
+
 </resources>
