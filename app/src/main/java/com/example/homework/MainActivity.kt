@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun onClickGoToMaterial (view: View){
+        val intent = Intent(this,MaterialActivity::class.java)
+        startActivity(intent)
+    }
 }
