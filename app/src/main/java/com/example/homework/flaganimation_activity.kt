@@ -4,22 +4,20 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class flaganimation_activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_flaganimation_activity)
     }
 
-
-    fun onCLickGoToPicture(view: View) {
-        val intent = Intent(this, PictureActivity::class.java)
+    fun onClickGoToAnimation(view: View){
+        val intent = Intent(this, animation_activity::class.java)
         startActivity(intent)
     }
 
-    fun onCLickGoToDZ2(view: View) {
-        val intent = Intent(this, flaganimation_activity::class.java)
+    fun onClickGoToFlag(view: View){
+        val intent = Intent(this, flag_activity::class.java)
         startActivity(intent)
     }
 }

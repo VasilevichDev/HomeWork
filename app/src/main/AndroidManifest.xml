@@ -11,11 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework">
-
-        <activity android:name=".PictureActivity">
-
-        </activity>
-
+        <activity android:name=".flag_activity"></activity>
+        <activity android:name=".animation_activity" />
+        <activity android:name=".flaganimation_activity" />
+        <activity android:name=".PictureActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
