@@ -26,13 +26,15 @@ class MaterialActivity : AppCompatActivity() {
                 textHelperPassword.error = "password is empty"
                 return@setOnClickListener
             } else
-                if (textFieldPassword.text.toString().length < 8){
+                if (textFieldPassword.text.toString().length < 8) {
                     textHelperPassword.error = "password is too short"
-                return@setOnClickListener}
+                    return@setOnClickListener
+                }
 
-            if (textFieldLogin.text.toString().isEmpty()){
+            if (textFieldLogin.text.toString().isEmpty()) {
                 textHelperLogin.error = "login is empty"
-                return@setOnClickListener}
+                return@setOnClickListener
+            }
 
             MaterialAlertDialogBuilder(this)
                 .setTitle(R.string.successful_registration)
