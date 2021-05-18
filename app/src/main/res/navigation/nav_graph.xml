@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragmentPostcard">
+
+    <fragment
+        android:id="@+id/firstFragmentPostcard"
+        android:name="com.example.homework.FirstFragmentPostcard"
+        tools:layout="@layout/fragment_first"
+        android:label="FirstFragmentPostcard" >
+        <action
+            android:id="@+id/showSecondFragmentPostcard"
+            app:destination="@id/secondFragmentPostcard"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragmentPostcard"
+        tools:layout="@layout/fragment_second"
+        android:name="com.example.homework.SecondFragmentPostcard"
+        android:label="SecondFragmentPostcard" >
+        <action
+            android:id="@+id/showDetailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.homework.DetailsFragment"
+        android:label="DetailsFragment" />
+
+</navigation>
