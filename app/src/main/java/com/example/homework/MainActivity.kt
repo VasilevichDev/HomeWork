@@ -21,6 +21,12 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    fun onClickGoToMaterial (view: View){
+        val intent = Intent(this,MaterialActivity::class.java)
+        startActivity(intent)
+    }
+
+
     fun onCLickGoToAgro(view: View) {
         val intent = Intent(this, Agro::class.java)
         startActivity(intent)
@@ -31,5 +37,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, flaganimation_activity::class.java)
         startActivity(intent)
     }
+
 
 }

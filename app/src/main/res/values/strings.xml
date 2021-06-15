@@ -6,6 +6,16 @@
     <string name="download">Download</string>
     <string name="enter_URL">enter_url</string>
 
+    <string name="homework_5">Homework_5</string>
+    <string name="password_hint">PASSWORD</string>
+    <string name="login_hint">LOGIN</string>
+    <string name="confirm">Confirm</string>
+    <string name="successful_registration">Successful registration</string>
+    <string name="ok">OK</string>
+    <string name="welcome">Welcome:</string>
+    <string name="check_in">check</string>
+
+
     <string name="minsk_region">Minsk region</string>
     <string name="start_value">0</string>
     <string name="gomel_region">Gomel region</string>
