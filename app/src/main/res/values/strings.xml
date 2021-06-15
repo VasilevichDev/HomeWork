@@ -5,6 +5,7 @@
     <string name="homework_3">Homework_3</string>
     <string name="download">Download</string>
     <string name="enter_URL">enter_url</string>
+
     <string name="homework_5">Homework_5</string>
     <string name="password_hint">PASSWORD</string>
     <string name="login_hint">LOGIN</string>
@@ -13,4 +14,20 @@
     <string name="ok">OK</string>
     <string name="welcome">Welcome:</string>
     <string name="check_in">check</string>
+
+
+    <string name="minsk_region">Minsk region</string>
+    <string name="start_value">0</string>
+    <string name="gomel_region">Gomel region</string>
+    <string name="brest_region">Brest region</string>
+    <string name="corn">CORN:</string>
+    <string name="potato">POTATO:</string>
+    <string name="cucumber">CUCUMBER:</string>
+    <string name="start_work">Start work</string>
+
+    <string name="flag_text">FLAG</string>
+    <string name="animation_text">ANIMATION</string>
+    <string name="todo">TODO</string>
+
+
 </resources>
