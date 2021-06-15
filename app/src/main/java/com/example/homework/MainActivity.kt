@@ -12,13 +12,21 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val button6 = findViewById<Button>(R.id.button6)
+        button6.setOnClickListener {
+            val intent = Intent(this, PostcardActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 
     fun onCLickGoToPicture(view: View) {
-        val intent = Intent(this, PictureActivity::class.java)
-        startActivity(intent)
+        val intentPicture = Intent(this, PictureActivity::class.java)
+        startActivity(intentPicture)
     }
+
+
 
 
     fun onClickGoToMaterial (view: View){
@@ -37,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, flaganimation_activity::class.java)
         startActivity(intent)
     }
+
 
 
 }

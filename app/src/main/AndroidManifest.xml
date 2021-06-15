@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework">
 
+        <activity android:name=".PostcardActivity"></activity>
+        
+
+
         <activity android:name=".WelcomeActivity"></activity>
         <activity android:name=".MaterialActivity" />
         <activity android:name=".PictureActivity" />
@@ -22,6 +26,7 @@
         <activity android:name=".animation_activity" />
         <activity android:name=".flaganimation_activity" />
         <activity android:name=".PictureActivity" />
+
 
 
         <activity android:name=".MainActivity">
